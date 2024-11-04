@@ -1,6 +1,4 @@
 import { Layout } from '@/components/custom/layout'
-import { Button } from '@/components/ui/button'
-
 import AppHeader from '@/components/host-headercomponents/app-header'
 import { keyDataCards } from '@/pages/functions/data/statistic-cards-data'
 import StatisticCard from '@/pages/functions/components/statistic-card'
@@ -15,10 +13,15 @@ export default function Dashboard() {
 
       {/* ===== Main ===== */}
       <Layout.Body>
-        <div className='mb-6'>
-          <h1 className='font-bold text-2xl tracking-tight'>Übersicht</h1>
-        </div>
+        <div className='mb-6 flex items-center justify-between space-y-2'>
+          <div>
+            <h1 className='font-bold text-2xl tracking-tight'>Übersicht</h1>
 
+            <p className='mt-2 text-muted-foreground'>
+              All certificates and keys in an overview
+            </p>
+          </div>
+        </div>
         <div className='space-y-4'>
           <div className='grid-cols grid gap-5 sm:grid-cols-1 lg:grid-cols-2'>
             {keyDataCards.map((card, index) => (

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { IconBrandFacebook, IconBrandGithub } from '@tabler/icons-react'
+/* import { IconBrandFacebook, IconBrandGithub } from '@tabler/icons-react' */
 import {
   Form,
   FormControl,
@@ -97,7 +97,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               <Link to='/'>Login</Link>
             </Button>
 
-            <div className='relative my-2'>
+            {/*             <div className='relative my-2'>
               <div className='absolute inset-0 flex items-center'>
                 <span className='w-full border-t' />
               </div>
@@ -127,7 +127,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
               >
                 Facebook
               </Button>
-            </div>
+            </div> */}
           </div>
         </form>
       </Form>
