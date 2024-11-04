@@ -22,7 +22,7 @@ export const keyDataCards: StatisticCard[] = [
       {
         value: '7 / 11',
         value_color: 'text-red-900 dark:text-red-200',
-        description: 'Abgelaufen/Ungültig',
+        description: 'Abgelaufen / Ungültig',
         description_color: 'text-destructive',
       },
     ],
@@ -50,7 +50,7 @@ export const keyDataCards: StatisticCard[] = [
       {
         value: '1/1',
         value_color: 'text-red-800 dark:text-red-200',
-        description: 'Abgelaufen/Ungültig',
+        description: 'Abgelaufen / Ungültig',
         description_color: 'text-destructive',
       },
     ],
@@ -106,7 +106,7 @@ export const keyDataCards: StatisticCard[] = [
       {
         value: '5/5',
         value_color: 'text-red-800 dark:text-red-200',
-        description: 'Abgelaufen/Ungültig',
+        description: 'Abgelaufen / Ungültig',
         description_color: 'text-destructive',
       },
     ],
@@ -134,7 +134,7 @@ export const keyDataCards: StatisticCard[] = [
       {
         value: '0',
         value_color: 'text-red-800 dark:text-red-200',
-        description: 'Abgelaufen/Ungültig',
+        description: 'Abgelaufen / Ungültig',
         description_color: 'text-destructive',
       },
     ],
@@ -162,7 +162,7 @@ export const keyDataCards: StatisticCard[] = [
       {
         value: '0',
         value_color: 'text-red-800 dark:text-red-200',
-        description: 'Abgelaufen/Ungültig',
+        description: 'Abgelaufen',
         description_color: 'text-destructive',
       },
     ],

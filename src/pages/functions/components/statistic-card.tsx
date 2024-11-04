@@ -25,7 +25,7 @@ const StatisticsCard: React.FC<CardProps> = ({ card }) => {
               {card.title}
             </CardTitle>
           </CardHeader>
-          <CardContent className='grid-cols grid gap-10 divide-x-0 p-4 py-12 text-center lg:py-8 xl:grid-cols-3 xl:divide-x'>
+          <CardContent className='grid-cols grid divide-x-0 p-4 py-12 text-center sm:gap-4 lg:py-8 xl:grid-cols-3 xl:divide-x'>
             {card.statistics.map((stat, index) => (
               <div key={index} className='statistic'>
                 <div className='px-5'>
