@@ -16,12 +16,14 @@ module.exports = {
   			'2xl': '1400px'
   		}
   	},
+	
   	extend: {
 		transitionProperty: {
         'height': 'height'
       },
   		fontFamily: {
-  			regular: ['Inter-Regular'],
+  			Inter: ["Inter", "sans-serif"],
+			regular: ['Inter-Regular'],
   			medium: ['Inter-Medium'],
   			bold: ['Inter-Bold'],
   			black: ['Inter-Black']

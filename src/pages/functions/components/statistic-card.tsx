@@ -21,10 +21,8 @@ const StatisticsCard: React.FC<CardProps> = ({ card }) => {
         <Card className='flex-auto'>
           <CardHeader className='bg-accent/40 p-4'>
             <CardTitle className='flex items-center'>
-              <span>
-                <card.icon className='mr-2 inline h-5 w-5 items-center' />
-              </span>
-              <span>{card.title}</span>
+              <card.icon className='mr-2 inline h-5 w-5 items-center' />
+              {card.title}
             </CardTitle>
           </CardHeader>
           <CardContent className='grid-cols grid gap-10 divide-x-0 p-4 py-12 text-center lg:py-8 xl:grid-cols-3 xl:divide-x'>

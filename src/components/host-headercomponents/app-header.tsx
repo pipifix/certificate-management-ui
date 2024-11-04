@@ -13,7 +13,7 @@ export default function AppHeader() {
       <div>
         {/* <TopNav links={topNavLinks.links} /> */}
         <div className='text-bold text-xl leading-tight'>
-          Certificate Management (proGOV)
+          Certificate Management
         </div>
       </div>
       <div className='flex items-center space-x-4'>
