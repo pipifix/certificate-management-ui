@@ -24,21 +24,6 @@ export function NavPagesLinks({ items }: NavPagesProps) {
 
   return (
     <SidebarGroup /* className='group-data-[collapsible=icon]:hidden' */>
-       <SidebarMenu>
-        <SidebarMenuItem>
-          <SidebarMenuButton
-            asChild
-            isActive={checkActiveNav('/')}
-            tooltip={'Dashboard'}
-            className='data-[active=true]:border data-[active=true]:border-primary/20 data-[active=true]:bg-blue-50 data-[active=true]:text-primary'
-          >
-            <a href='/' className='gap-2'>
-              <LayoutDashboard className='flex items-center gap-2' />
-              <span>Dashboard</span>
-            </a>
-          </SidebarMenuButton>
-        </SidebarMenuItem>
-      </SidebarMenu>
       <SidebarGroupLabel>Aktionen</SidebarGroupLabel>
       <SidebarMenu>
         {items.map((item) => (

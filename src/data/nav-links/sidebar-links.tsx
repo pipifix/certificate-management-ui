@@ -9,6 +9,7 @@ import {
   KeyRound,
   Warehouse,
   BookText,
+  LayoutDashboard,
 } from 'lucide-react'
 
 export const sidebarLinks: {
@@ -40,6 +41,12 @@ export const sidebarLinks: {
     },
   ],
   links: [
+    {
+      title: 'Dashboard',
+      title_en: 'Dashboard',
+      url: '/',
+      icon: LayoutDashboard,
+    },
     {
       title: 'Öffentliche Zertifikate',
       title_en: 'Public Certificates',
