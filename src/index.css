@@ -12,6 +12,7 @@
   @font-face {
     font-family: 'Inter-Medium';
     src: url('./assets/fonts/InterDisplay-Medium.woff2') format('woff2');
+
     font-weight: 700;
     font-display: swap;
   }
@@ -22,12 +23,7 @@
     font-weight: 800;
     font-display: swap;
   }
-  @font-face {
-    font-family: 'Inter-Black';
-    src: url('./assets/fonts/InterDisplay-Black.woff2') format('woff2');
-    font-weight: 900;
-    font-display: swap;
-  }
+
   html {
     font-family: Inter, ui-sans-serif, system-ui, sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
