@@ -16,6 +16,15 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover'
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from '@/components/ui/drawer'
 
 export default function PublicCertificates() {
   return (
@@ -35,15 +44,18 @@ export default function PublicCertificates() {
             </p>
           </div>
           <div>
-            <Popover>
-              <PopoverTrigger asChild>
+            <Drawer>
+              <DrawerTrigger asChild>
                 <Button variant='outline'>
                   <LifeBuoy className='h4 mr-2 w-4 opacity-50' />
                   Hilfe
                 </Button>
-              </PopoverTrigger>
-              <PopoverContent className='flex w-80'>
-                <div className='space-y-2'>
+              </DrawerTrigger>
+              <DrawerContent className=''>
+                <DrawerHeader>
+                  <DrawerTitle>Hilfe</DrawerTitle>
+                </DrawerHeader>
+                <div className='p-5'>
                   <div>
                     Dieser Bereich zeigt eine Übersicht über bereits importierte
                     öffentliche Zertifikate.
@@ -85,8 +97,13 @@ export default function PublicCertificates() {
                     das System importieren.
                   </p>
                 </div>
-              </PopoverContent>
-            </Popover>
+                <DrawerFooter>
+                  <DrawerClose>
+                    <Button variant='outline'>close</Button>
+                  </DrawerClose>
+                </DrawerFooter>
+              </DrawerContent>
+            </Drawer>
           </div>
         </div>
         <CertificatesTable certificates={certificates} />
