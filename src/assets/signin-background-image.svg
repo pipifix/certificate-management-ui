@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="1200px" viewBox="0 0 800 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>signin-background-image</title>
+    <defs>
+        <linearGradient x1="21.4373564%" y1="68.4618049%" x2="131.578655%" y2="36.5248094%" id="linearGradient-1">
+            <stop stop-color="#3D71FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3D71FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.46092827%" y1="7.49169182%" x2="110.561966%" y2="70.3802582%" id="linearGradient-3">
+            <stop stop-color="#3D71FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="signin-background-image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#3D71FF" x="0" y="0" width="800" height="1200"></rect>
+        <path d="M0,0 L692.617143,0 C707.084746,174.56708 686.795699,291.233747 631.75,350 C581.623796,403.514248 416.581212,447.911517 346.308571,480.015238 C160.281905,565.000635 44.8457143,695.662222 0,872 L0,0 Z" id="Rectangle" fill-opacity="0.4" fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;"></path>
+        <path d="M0,0 L417,0 C390,141.5 320.5,237.833333 208.5,289 C96.5,340.166667 27,418.833333 0,525 L0,0 Z" id="Rectangle" fill-opacity="0.4" fill="url(#linearGradient-2)" style="mix-blend-mode: multiply;"></path>
+        <path d="M245.25,688.495782 L800,688.495782 C640.5,805.162449 543.75,911.771338 509.75,1008.32245 C475.75,1104.87356 387.583333,1168.76608 245.25,1200 L245.25,688.495782 Z" id="Rectangle" fill-opacity="0.8" fill="url(#linearGradient-3)" style="mix-blend-mode: multiply;" transform="translate(522.625, 944.2479) scale(-1, -1) translate(-522.625, -944.2479)"></path>
+    </g>
+</svg>

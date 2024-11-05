@@ -1,5 +1,6 @@
 import { UserAuthForm } from './components/user-auth-form'
 import ViteLogo from '@/assets/vite.svg'
+import BGImage from '@/assets/signin-background-image.svg'
 import { ShieldCheck } from 'lucide-react'
 
 export default function SignIn() {
@@ -7,14 +8,17 @@ export default function SignIn() {
     <>
       <div className='container relative grid h-svh flex-col items-center justify-center lg:max-w-none lg:grid-cols-2 lg:px-0'>
         <div className='relative hidden h-full flex-col bg-muted p-10 text-white dark:border-r lg:flex'>
-          <div className='absolute inset-0 bg-blue-950' />
+          <div className='absolute inset-0 bg-[url("@/assets/signin-background-image.svg")] bg-cover' />
           <div className='relative z-20 flex items-center font-medium text-lg'>
             pro<span className='font-italic mr-2 font-bold'>NEXT</span>{' '}
             Certificate Management
           </div>
 
           <ShieldCheck size='300' strokeWidth='1' className='relative m-auto' />
-          {/*  <img
+          {/* 
+          
+          
+          <img
             src={ViteLogo}
             className='relative m-auto'
             width={301}
@@ -33,7 +37,7 @@ export default function SignIn() {
             </div>
             <UserAuthForm />
             <p className='px-8 text-center text-sm text-muted-foreground'>
-              By clicking login, you agree to our{' '}
+              By clicking login, you agree to our
               <a
                 href='/terms'
                 className='underline underline-offset-4 hover:text-primary'
