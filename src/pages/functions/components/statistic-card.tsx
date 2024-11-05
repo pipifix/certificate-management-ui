@@ -47,7 +47,7 @@ const StatisticsCard: React.FC<CardProps> = ({ card }) => {
           {card.footer.url && (
             <CardFooter className='item-center flex flex-col content-center border-0 border-t p-3 text-sm'>
               <Link
-                to='{card.footer.url}'
+                to={card.footer.url}
                 className='text-muted-foreground hover:text-primary'
               >
                 {card.footer.label} →

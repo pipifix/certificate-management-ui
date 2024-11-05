@@ -3,6 +3,7 @@ import { NavItem } from '@/types/nav'
 import {
   FileKey2,
   FileKey,
+  FileDown,
   FileBadge2,
   FileBadge,
   Import,
@@ -57,7 +58,7 @@ export const sidebarLinks: {
       title: 'Eingereichte Zertifikate',
       title_en: 'Submitted Certificates',
       url: '/submitted-certificates',
-      icon: Import,
+      icon: FileDown,
     },
     {
       title: 'Aussteller Zertifikate',
@@ -69,7 +70,7 @@ export const sidebarLinks: {
       title: 'Private Schlüssel',
       title_en: 'Private Keys',
       url: '/private-keys',
-      icon: FileKey2,
+      icon: KeyRound,
     },
     {
       title: 'Private PGP Schlüssel',
@@ -81,7 +82,7 @@ export const sidebarLinks: {
       title: 'Öffentliche PGP Schlüssel',
       title_en: 'Public PGP Keys',
       url: '/public-pgp-keys',
-      icon: KeyRound,
+      icon: FileKey2,
     },
   ],
 }

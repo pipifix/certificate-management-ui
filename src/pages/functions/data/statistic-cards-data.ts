@@ -1,11 +1,19 @@
 // sampleData.ts
 import { StatisticCard } from '@/types/statisticcards'
-import { FileKey2, FileKey, FileBadge2, FileBadge, Import } from 'lucide-react'
+import {
+  FileKey2,
+  FileKey,
+  FileBadge2,
+  FileBadge,
+  Import,
+  FileDown,
+  KeyRound,
+} from 'lucide-react'
 
 export const keyDataCards: StatisticCard[] = [
   {
     title: 'Öffentliche Zertifikate',
-    icon: FileBadge2,
+    icon: FileBadge,
     statistics: [
       {
         value: '538',
@@ -27,13 +35,13 @@ export const keyDataCards: StatisticCard[] = [
       },
     ],
     footer: {
-      label: 'Zur Übersicht öffenrlicher Zertifikate',
+      label: 'Zur Übersicht öffentlicher Zertifikate',
       url: '/public-certificates',
     },
   },
   {
     title: 'Eingereichte Zertifikate',
-    icon: Import,
+    icon: FileDown,
     statistics: [
       {
         value: '204',
@@ -56,12 +64,12 @@ export const keyDataCards: StatisticCard[] = [
     ],
     footer: {
       label: 'Zur Übersicht eingereichter Zertifikate',
-      url: '/public-certificates',
+      url: '/submitted-certificates',
     },
   },
   {
     title: 'Aussteller Zertifikate',
-    icon: FileBadge,
+    icon: FileBadge2,
     statistics: [
       {
         value: '5377',
@@ -89,7 +97,7 @@ export const keyDataCards: StatisticCard[] = [
   },
   {
     title: 'Private Schlüssel',
-    icon: FileKey2,
+    icon: KeyRound,
     statistics: [
       {
         value: '37',
@@ -117,7 +125,7 @@ export const keyDataCards: StatisticCard[] = [
   },
   {
     title: 'Öffentliche PGP Schlüssel',
-    icon: FileKey,
+    icon: FileKey2,
     statistics: [
       {
         value: '16',

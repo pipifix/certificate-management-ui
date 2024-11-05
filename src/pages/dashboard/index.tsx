@@ -23,7 +23,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className='space-y-4'>
-          <div className='grid-cols grid gap-5 sm:grid-cols-1 lg:grid-cols-2'>
+          <div className='grid-cols grid auto-rows-[minmax(0,_1fr)] gap-5 sm:grid-cols-1 lg:grid-cols-2'>
             {keyDataCards.map((card, index) => (
               <StatisticCard key={index} card={card} />
             ))}
